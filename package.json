@@ -7,17 +7,17 @@
     "vscode": "^1.72.0"
   },
   "categories": [
-    "Other"
+    "Testing"
   ],
   "activationEvents": [
-    "onCommand:create-test.helloWorld"
+    "onCommand:create-test.createTest"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "create-test.helloWorld",
-        "title": "Hello World"
+        "command": "create-test.createTest",
+        "title": "Create Test File"
       }
     ]
   },
